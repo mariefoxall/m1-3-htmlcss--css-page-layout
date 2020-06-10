@@ -1,13 +1,47 @@
+/* I need help getting display:none vs display:block to work */
+
 body {
   margin: 0;
 }
 
 .nav {
   background-color: #383737;
+  padding: 10px;
 }
 
 .nav-dropdown {
   color: #fff;
   text-decoration: none;
-  display: inline-block;
+  display: block;
+  position: relative;
+}
+
+.dropmenu {
+  position: absolute;
+  left: 0;
+  bottom 100%;
+  display: block;
+}
+
+.dropdown-list {
+padding: 0;
+margin: 0;
+display: none;
+}
+
+.dropdown-list li{
+  list-style-type: none;
+  background-color: rgb(95, 162, 238);
+  color:white;
+  padding: 10px;
+}
+
+.nav-dropdown:hover {
+  .dropdown-list {
+  display: block;
+  }
+}
+
+li:hover {
+  background-color: rgb(38, 133, 243);
 }
