@@ -1,0 +1,33 @@
+body{
+    font-family: "Poppins";
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+    margin: auto;
+}
+
+.limited{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    max-width: 50%;
+    margin: auto;
+}
+
+h1{
+    font-size: 24px;
+}
+
+p,
+a{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.link::after {
+    content: '>';
+  }
