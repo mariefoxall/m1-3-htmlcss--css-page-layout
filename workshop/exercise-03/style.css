@@ -1,0 +1,17 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('imgs/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.slogan{
+    min-height: 100vh;
+    font-family: 'Poppins';
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 5px black;
+}
