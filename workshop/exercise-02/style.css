@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: 'Poppins';
+    
+}
+
+.icon{
+    display: block;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a3633;
+    height: 50px;
+}
+
+.nav{
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+    transition: all ease-in-out 0.2s;
+}
+
+.nav:hover{
+    opacity: 0.5;
+}
