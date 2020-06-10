@@ -1,0 +1,17 @@
+/* I'm keeping this solution because it **almost** got it right :D */
+
+body{
+    margin: 0;
+}
+
+.horizontal{
+    display: flex;
+    padding: 0;
+    margin: auto;
+}
+
+.product{
+    max-width: 100%;
+    width: 33.33%;
+    outline: red solid 1px;
+}
